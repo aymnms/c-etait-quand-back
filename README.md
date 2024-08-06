@@ -1,49 +1,143 @@
-# Invention
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a id="readme-top"></a>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">c-etait-quand-back</h3>
+
+  <p align="center">
+Website of general culture games about invention creation dates
+    <br />
+    <a href="https://github.com/github_username/c-etait-quand-back/wiki"><strong>🔜 ~~Explore the docs~~</strong></a>
+    <br />
+    <a href="https://github.com/github_username/c-etait-quand-front">🔜 ~~Front side~~</a>
+    ·
+    <a href="https://github.com/aymnms/c-etait-quand-back/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/aymnms/c-etait-quand-back/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
 This is a website of general culture games about invention creation dates.
 Many questions will be asked about inventions: the objective is to find the closest date!
 The player with the highest score wins!
 
-## **Table of Contents**
+This repository contain only the back of the project: the api.
 
-- [Invention](#invention)
-    - [**Table of Contents**](#table-of-contents)
-    - [🛖 Architecture](#architecture)
-    - [🧑‍💻 Getting started](#-getting-started)
-    - [📄 Documentations / Links](#-documentations--links)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🛖 Architecture
 
-### How to use?
 
-When you come in the website, you're in the home page. This page describe the game and how you can play it!
-Then you can click on a button to create a room. In this page, you can:
-- copy the link of the game to share it with your friends to play with them,
-- see the people who have joined you,
-- change your name,
-- as well as start the game.
+### Built With
 
-Once the game has started, 3 steps are repeated in a loop:
-- The question is displayed
-- Players can answer for 30s
-- Correct answer is displayed + players' answers displayed + closest player is highlighted
-- Scores are displayed for 5s
+### Built With
 
-Then, the final score is displayed. And you can restart another game in the same room, or create a new game.
+* [![Python][Python]][Python-url] 
+* [![Flask][Flask]][Flask-url]
+* [![Sqlite][Sqlite]][Sqlite-url]
 
-### How it works?
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This website works with docker.
-🔜
 
-## 🧑‍💻 Getting started
+
+<!-- GETTING STARTED -->
+## Getting Started
 
 🔜
 
-## 🚀 How to deploy
+### Prerequisites
 
 🔜
 
-## 📄 Documentations / Links
+
+### Installation
 
 🔜
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+🔜
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+🔜
+
+See the [open issues](https://github.com/aymnms/c-etait-quand-back/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+- [@thomassg](https://www.artstation.com/thomassg) - Graphist
+- [@aymnms](https://github.com/aymnms) - Dev
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/aymnms/c-etait-quand-back.svg?style=for-the-badge
+[contributors-url]: https://github.com/aymnms/c-etait-quand-back/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/aymnms/c-etait-quand-back.svg?style=for-the-badge
+[forks-url]: https://github.com/aymnms/c-etait-quand-back/network/members
+[stars-shield]: https://img.shields.io/github/stars/aymnms/c-etait-quand-back.svg?style=for-the-badge
+[stars-url]: https://github.com/aymnms/c-etait-quand-back/stargazers
+[issues-shield]: https://img.shields.io/github/issues/aymnms/c-etait-quand-back.svg?style=for-the-badge
+[issues-url]: https://github.com/aymnms/c-etait-quand-back/issues
+[Python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org/
+[Flask]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
+[Flask-url]: https://flask.palletsprojects.com/en/3.0.x/
+[Sqlite]: https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white
+[Sqlite-url]: https://www.sqlite.org/
