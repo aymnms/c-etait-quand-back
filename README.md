@@ -16,9 +16,9 @@
   <p align="center">
 Website of general culture games about invention creation dates
     <br />
-    <a href="https://github.com/github_username/c-etait-quand-back/wiki"><strong>🔜 ~~Explore the docs~~</strong></a>
+    <a href="https://github.com/github_username/c-etait-quand-back/wiki"><strong>🔜 <strike>Explore the docs</strike></strong></a>
     <br />
-    <a href="https://github.com/github_username/c-etait-quand-front">🔜 ~~Front side~~</a>
+    <a href="https://github.com/github_username/c-etait-quand-front">🔜 <strike>Front side</strike></a>
     ·
     <a href="https://github.com/aymnms/c-etait-quand-back/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
