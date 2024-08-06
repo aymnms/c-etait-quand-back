@@ -68,8 +68,6 @@ This repository contain only the back of the project: the api.
 
 ### Built With
 
-### Built With
-
 * [![Python][Python]][Python-url] 
 * [![Flask][Flask]][Flask-url]
 * [![Sqlite][Sqlite]][Sqlite-url]
