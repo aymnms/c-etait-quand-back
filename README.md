@@ -14,7 +14,7 @@
   <h3 align="center">c-etait-quand-back</h3>
 
   <p align="center">
-Website of general culture games about invention creation dates
+Api of general culture games about invention creation dates
     <br />
     <a href="https://github.com/github_username/c-etait-quand-back/wiki"><strong>🔜 <strike>Explore the docs</strike></strong></a>
     <br />
@@ -79,16 +79,31 @@ This repository contain only the back of the project: the api.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-🔜
-
 ### Prerequisites
 
-🔜
-
+You need to install Python and pip
 
 ### Installation
 
-🔜
+1. Clone the repo
+   ```sh
+   $ git clone https://github.com/aymnms/cocobot.git
+   ```
+2. Install Pip libraries
+   ```sh
+   $ pip install -r requirements.txt
+   ```
+3. Database initialization
+   ```sh
+   $ flask shell
+   ```
+   Or
+   ```sh
+   $ python
+   >>> from app import app, db
+   >>> app.app_context().push()
+   >>> db.create_all()
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +112,19 @@ This repository contain only the back of the project: the api.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-🔜
+Execute this command to start the api server
+```sh
+$ python app.py
+```
+
+Then, you can call the api like that
+
+**Get a random question**
+```sh
+$ curl http://127.0.0.1:5000/question
+```
+
+_For more examples, please refer to the [Documentation](https://github.com/aymnms/cocobot/wiki)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +133,17 @@ This repository contain only the back of the project: the api.
 <!-- ROADMAP -->
 ## Roadmap
 
-🔜
+- [ ] MVP
+  - [ ] GET login
+  - [ ] GET logout
+  - [ ] do the database
+  - [ ] GET get random question
+  - [ ] GET get question's solution
+  - [ ] POST send player's answer
+  - [ ] GET get all players answers
+  - [ ] GET increment player score
+  - [ ] GET all players score
+- [ ] CI/CD
 
 See the [open issues](https://github.com/aymnms/c-etait-quand-back/issues) for a full list of proposed features (and known issues).
 
