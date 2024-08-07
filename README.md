@@ -87,7 +87,7 @@ You need to install Python and pip
 
 1. Clone the repo
    ```sh
-   $ git clone https://github.com/aymnms/cocobot.git
+   $ git clone https://github.com/aymnms/c-etait-quand-back
    ```
 2. Install Pip libraries
    ```sh
@@ -134,9 +134,9 @@ _For more examples, please refer to the [Documentation](https://github.com/aymnm
 ## Roadmap
 
 - [ ] MVP
+  - [ ] do the database
   - [ ] GET login
   - [ ] GET logout
-  - [ ] do the database
   - [ ] GET get random question
   - [ ] GET get question's solution
   - [ ] POST send player's answer
