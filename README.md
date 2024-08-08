@@ -93,17 +93,6 @@ You need to install Python and pip
    ```sh
    $ pip install -r requirements.txt
    ```
-3. Database initialization
-   ```sh
-   $ flask shell
-   ```
-   Or
-   ```sh
-   $ python
-   >>> from app import app, db
-   >>> app.app_context().push()
-   >>> db.create_all()
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

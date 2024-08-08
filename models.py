@@ -9,6 +9,7 @@ class Player(db.Model):
     score = db.Column(db.Integer, default=0)
     character_id = db.Column(db.Integer, db.ForeignKey('character.id'), nullable=False)
     room_id = db.Column(db.Integer, db.ForeignKey('room.id'), nullable=False)
+    session_id = db.Column(db.String(36), unique=True, nullable=True)
     answers = db.relationship('Answer', backref='player', lazy=True)
 
 class Answer(db.Model):
