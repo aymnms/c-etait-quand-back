@@ -277,6 +277,8 @@ Temporary Items
 
 # Environments
 
+*.db
+
 # Spyder project settings
 
 # Rope project settings

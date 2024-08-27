@@ -5,7 +5,9 @@ from models import db, Player, Answer, Room, Question, Character
 import uuid
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cetaitquand.db'
+db_path = os.path.join(os.path.dirname(__file__), 'cetaitquand.db')
+db_uri = 'sqlite:///{}'.format(db_path)
+app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
