@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, jsonify
 from flask_socketio import SocketIO, join_room, leave_room, send, emit
-from models import db, Player, Answer, Room, Question, Character
+from app.models import db, Player, Answer, Room, Question, Character
 import uuid
 
 app = Flask(__name__)
